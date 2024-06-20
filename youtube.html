@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube-clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <body>
+      <header class="header">
+        <div class="left-section">
+          <img class="hamburger-menu" src="icones/hamburger-menu.svg">
+          <img class="youtube-logo" src="icones/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <img class="search-icon" src="icones/search.svg">
+            <div class="tooltip">Recherche</div>
+          </button>
+          <button class="voice-search-button">
+            <img class="voice-search-icon" src="icones/voice-search-icon.svg">
+            <div class="tooltip">Effectuer une recherche vocale</div>
+          </button>
+        </div>
+        <div class="right-section">
+          <div class="upload-icon-container">
+            <img class="upload-icon" src="icones/upload.svg">
+            <div class="tooltip">Créer</div>
+          </div>
+          <div class="notifications-icon-container">
+            <img class="notifications-icon" src="icones/notifications.svg">
+            <div class="notifications-count">9</div>
+          </div>
+          <img class="current-user-picture" src="icones/myself.jpeg">
+        </div>
+      </header>
+
+      <nav class="sidebar">
+        <div class="sidebar-link">
+          <img src="icones/home.svg">
+          <div>Accueil</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icones/explore.svg">
+          <div>Explorer</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icones/subscriptions.svg">
+          <div>Abonnements</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icones/originals.svg">
+          <div>originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icones/youtube-music.svg">
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icones/library.svg">
+          <div>librairies</div>
+        </div>
+      </nav>
+    
+        <main>
+        <section class="video-grid">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="./intro-to-html/thumbnails/thumbnail-1.webp">
+              <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture1.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-author">
+                  Marques Brownlee  &#10003; 
+                </p>
+                <p class="video-stats">
+                  3.4M vues &#183; il y a 3 ans
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-2.webp">
+              <div class="video-time">07:41</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Mrg Benoît Bertrand, nommé évêque de Pontoise
+                </p>
+                <p class="video-author">
+                  KTO TV  &#10003; 
+                </p>
+                <p class="video-stats">
+                    655 vues &#183; il y a 3 heures
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-3.jpeg">
+              <div class="video-time">11:26</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture3.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Automating My Life Python: The Ultimate Guide
+                </p>
+                <p class="video-author">
+                    Tiff In Tech &#10003; 
+                </p>
+                <p class="video-stats">
+                    751 k de vues &#183; il y a 1 an
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-4.jpeg">
+              <div class="video-time">02:57:40</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture4.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Free Figma UX Design UI Essentials Course
+                </p>
+                <p class="video-author">
+                    Bring Your Own Laptop &#10003; 
+                </p>
+                <p class="video-stats">
+                    1.8M vues &#183; il y a 2 ans
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-5.jpeg"">
+              <div class="video-time">15:27</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture5.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                 Ce qu'il ne faut pas manquer sur React 19
+                </p>
+                <p class="video-author">
+                    Algomax &#10003; 
+                </p>
+                <p class="video-stats">
+                    3.7 k vues &#183; il y a 13 jours
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-6.jpeg">
+              <div class="video-time">17:45</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="intro-to-html/channel-pictures/channel-picture6.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Le buste de Néfertiti, naissance d'une icône
+                </p>
+                <p class="video-author">
+                    Arte &#10003; 
+                </p>
+                <p class="video-stats">
+                    10 k vues &#183; il y a 2 jours
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+</body>
+</html>
